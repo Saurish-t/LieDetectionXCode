@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		374229682BF91ACD0002C6D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374229672BF91ACD0002C6D8 /* AppDelegate.swift */; };
+		3742296A2BF91ACD0002C6D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374229692BF91ACD0002C6D8 /* SceneDelegate.swift */; };
+		3742296C2BF91ACD0002C6D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742296B2BF91ACD0002C6D8 /* ViewController.swift */; };
+		3742296F2BF91ACD0002C6D8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3742296E2BF91ACD0002C6D8 /* Base */; };
+		374229712BF91AD00002C6D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374229702BF91AD00002C6D8 /* Assets.xcassets */; };
+		374229742BF91AD00002C6D8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 374229732BF91AD00002C6D8 /* Base */; };
+		3742297F2BF91AD00002C6D8 /* Lie_detectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742297E2BF91AD00002C6D8 /* Lie_detectionTests.swift */; };
+		374229892BF91AD00002C6D8 /* Lie_detectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374229882BF91AD00002C6D8 /* Lie_detectionUITests.swift */; };
+		3742298B2BF91AD00002C6D8 /* Lie_detectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742298A2BF91AD00002C6D8 /* Lie_detectionUITestsLaunchTests.swift */; };
+		374229982BF937940002C6D8 /* 2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374229972BF937940002C6D8 /* 2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3742297B2BF91AD00002C6D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3742295C2BF91ACD0002C6D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 374229632BF91ACD0002C6D8;
+			remoteInfo = "Lie detection";
+		};
+		374229852BF91AD00002C6D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3742295C2BF91ACD0002C6D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 374229632BF91ACD0002C6D8;
+			remoteInfo = "Lie detection";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		374229642BF91ACD0002C6D8 /* Lie detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lie detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		374229672BF91ACD0002C6D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		374229692BF91ACD0002C6D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3742296B2BF91ACD0002C6D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3742296E2BF91ACD0002C6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		374229702BF91AD00002C6D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		374229732BF91AD00002C6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		374229752BF91AD00002C6D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3742297A2BF91AD00002C6D8 /* Lie detectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lie detectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3742297E2BF91AD00002C6D8 /* Lie_detectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lie_detectionTests.swift; sourceTree = "<group>"; };
+		374229842BF91AD00002C6D8 /* Lie detectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lie detectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		374229882BF91AD00002C6D8 /* Lie_detectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lie_detectionUITests.swift; sourceTree = "<group>"; };
+		3742298A2BF91AD00002C6D8 /* Lie_detectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lie_detectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		374229972BF937940002C6D8 /* 2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		374229612BF91ACD0002C6D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374229772BF91AD00002C6D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374229812BF91AD00002C6D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3742295B2BF91ACD0002C6D8 = {
+			isa = PBXGroup;
+			children = (
+				374229662BF91ACD0002C6D8 /* Lie detection */,
+				3742297D2BF91AD00002C6D8 /* Lie detectionTests */,
+				374229872BF91AD00002C6D8 /* Lie detectionUITests */,
+				374229652BF91ACD0002C6D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		374229652BF91ACD0002C6D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				374229642BF91ACD0002C6D8 /* Lie detection.app */,
+				3742297A2BF91AD00002C6D8 /* Lie detectionTests.xctest */,
+				374229842BF91AD00002C6D8 /* Lie detectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		374229662BF91ACD0002C6D8 /* Lie detection */ = {
+			isa = PBXGroup;
+			children = (
+				374229672BF91ACD0002C6D8 /* AppDelegate.swift */,
+				374229692BF91ACD0002C6D8 /* SceneDelegate.swift */,
+				3742296B2BF91ACD0002C6D8 /* ViewController.swift */,
+				3742296D2BF91ACD0002C6D8 /* Main.storyboard */,
+				374229702BF91AD00002C6D8 /* Assets.xcassets */,
+				374229722BF91AD00002C6D8 /* LaunchScreen.storyboard */,
+				374229752BF91AD00002C6D8 /* Info.plist */,
+				374229972BF937940002C6D8 /* 2ViewController.swift */,
+			);
+			path = "Lie detection";
+			sourceTree = "<group>";
+		};
+		3742297D2BF91AD00002C6D8 /* Lie detectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3742297E2BF91AD00002C6D8 /* Lie_detectionTests.swift */,
+			);
+			path = "Lie detectionTests";
+			sourceTree = "<group>";
+		};
+		374229872BF91AD00002C6D8 /* Lie detectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				374229882BF91AD00002C6D8 /* Lie_detectionUITests.swift */,
+				3742298A2BF91AD00002C6D8 /* Lie_detectionUITestsLaunchTests.swift */,
+			);
+			path = "Lie detectionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		374229632BF91ACD0002C6D8 /* Lie detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3742298E2BF91AD00002C6D8 /* Build configuration list for PBXNativeTarget "Lie detection" */;
+			buildPhases = (
+				374229602BF91ACD0002C6D8 /* Sources */,
+				374229612BF91ACD0002C6D8 /* Frameworks */,
+				374229622BF91ACD0002C6D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lie detection";
+			productName = "Lie detection";
+			productReference = 374229642BF91ACD0002C6D8 /* Lie detection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		374229792BF91AD00002C6D8 /* Lie detectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374229912BF91AD00002C6D8 /* Build configuration list for PBXNativeTarget "Lie detectionTests" */;
+			buildPhases = (
+				374229762BF91AD00002C6D8 /* Sources */,
+				374229772BF91AD00002C6D8 /* Frameworks */,
+				374229782BF91AD00002C6D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3742297C2BF91AD00002C6D8 /* PBXTargetDependency */,
+			);
+			name = "Lie detectionTests";
+			productName = "Lie detectionTests";
+			productReference = 3742297A2BF91AD00002C6D8 /* Lie detectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		374229832BF91AD00002C6D8 /* Lie detectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374229942BF91AD00002C6D8 /* Build configuration list for PBXNativeTarget "Lie detectionUITests" */;
+			buildPhases = (
+				374229802BF91AD00002C6D8 /* Sources */,
+				374229812BF91AD00002C6D8 /* Frameworks */,
+				374229822BF91AD00002C6D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				374229862BF91AD00002C6D8 /* PBXTargetDependency */,
+			);
+			name = "Lie detectionUITests";
+			productName = "Lie detectionUITests";
+			productReference = 374229842BF91AD00002C6D8 /* Lie detectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3742295C2BF91ACD0002C6D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					374229632BF91ACD0002C6D8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					374229792BF91AD00002C6D8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 374229632BF91ACD0002C6D8;
+					};
+					374229832BF91AD00002C6D8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 374229632BF91ACD0002C6D8;
+					};
+				};
+			};
+			buildConfigurationList = 3742295F2BF91ACD0002C6D8 /* Build configuration list for PBXProject "Lie detection" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3742295B2BF91ACD0002C6D8;
+			productRefGroup = 374229652BF91ACD0002C6D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				374229632BF91ACD0002C6D8 /* Lie detection */,
+				374229792BF91AD00002C6D8 /* Lie detectionTests */,
+				374229832BF91AD00002C6D8 /* Lie detectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		374229622BF91ACD0002C6D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374229712BF91AD00002C6D8 /* Assets.xcassets in Resources */,
+				374229742BF91AD00002C6D8 /* Base in Resources */,
+				3742296F2BF91ACD0002C6D8 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374229782BF91AD00002C6D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374229822BF91AD00002C6D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		374229602BF91ACD0002C6D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742296C2BF91ACD0002C6D8 /* ViewController.swift in Sources */,
+				374229982BF937940002C6D8 /* 2ViewController.swift in Sources */,
+				374229682BF91ACD0002C6D8 /* AppDelegate.swift in Sources */,
+				3742296A2BF91ACD0002C6D8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374229762BF91AD00002C6D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3742297F2BF91AD00002C6D8 /* Lie_detectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374229802BF91AD00002C6D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374229892BF91AD00002C6D8 /* Lie_detectionUITests.swift in Sources */,
+				3742298B2BF91AD00002C6D8 /* Lie_detectionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3742297C2BF91AD00002C6D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 374229632BF91ACD0002C6D8 /* Lie detection */;
+			targetProxy = 3742297B2BF91AD00002C6D8 /* PBXContainerItemProxy */;
+		};
+		374229862BF91AD00002C6D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 374229632BF91ACD0002C6D8 /* Lie detection */;
+			targetProxy = 374229852BF91AD00002C6D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3742296D2BF91ACD0002C6D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3742296E2BF91ACD0002C6D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		374229722BF91AD00002C6D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				374229732BF91AD00002C6D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3742298C2BF91AD00002C6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3742298D2BF91AD00002C6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3742298F2BF91AD00002C6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7F763QG7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lie detection/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "saurisht.Lie-detection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		374229902BF91AD00002C6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7F763QG7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lie detection/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "saurisht.Lie-detection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		374229922BF91AD00002C6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7F763QG7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "saurisht.Lie-detectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lie detection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lie detection";
+			};
+			name = Debug;
+		};
+		374229932BF91AD00002C6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7F763QG7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "saurisht.Lie-detectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lie detection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lie detection";
+			};
+			name = Release;
+		};
+		374229952BF91AD00002C6D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7F763QG7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "saurisht.Lie-detectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lie detection";
+			};
+			name = Debug;
+		};
+		374229962BF91AD00002C6D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7F763QG7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "saurisht.Lie-detectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lie detection";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3742295F2BF91ACD0002C6D8 /* Build configuration list for PBXProject "Lie detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742298C2BF91AD00002C6D8 /* Debug */,
+				3742298D2BF91AD00002C6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3742298E2BF91AD00002C6D8 /* Build configuration list for PBXNativeTarget "Lie detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3742298F2BF91AD00002C6D8 /* Debug */,
+				374229902BF91AD00002C6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374229912BF91AD00002C6D8 /* Build configuration list for PBXNativeTarget "Lie detectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374229922BF91AD00002C6D8 /* Debug */,
+				374229932BF91AD00002C6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374229942BF91AD00002C6D8 /* Build configuration list for PBXNativeTarget "Lie detectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374229952BF91AD00002C6D8 /* Debug */,
+				374229962BF91AD00002C6D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3742295C2BF91ACD0002C6D8 /* Project object */;
+}
